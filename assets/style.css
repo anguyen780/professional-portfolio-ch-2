@@ -1,0 +1,50 @@
+body {
+    font-family: 'Aboreto', cursive;
+}
+
+h1 {
+    font-size: 200%;
+}
+
+header {
+    background-color: #E9DAC1;
+    padding: 25px 50px;
+}
+
+.header-name {
+    background-color: #54BAB9;
+    padding: 15px 10px 15px 50px;
+    position: relative;
+    right: 50px;
+    color: #E9DAC1;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ul-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    list-style-type: none;
+}
+
+.ul-nav li {
+    padding-right: 10px;
+} 
+
+li a {
+    color: #54BAB9;
+}
+
+a {
+    color: #54BAB9;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: none; 
+}
