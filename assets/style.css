@@ -1,5 +1,6 @@
 body {
     font-family: 'Aboreto', cursive;
+    color: grey;
 }
 
 h1 {
@@ -36,15 +37,62 @@ header {
     padding-right: 10px;
 } 
 
-li a {
-    color: #54BAB9;
-}
-
 a {
-    color: #54BAB9;
+    color: grey;
     text-decoration: none;
 }
 
 a:hover {
     text-decoration: none; 
+}
+
+.main-img {
+    height: 282px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url(./images/_DSC2922.JPEG);
+    background-size: 125%;
+    background-position: center 45%;
+}
+
+.main-img h2 {
+    position: absolute;
+    top: 320px;
+    left: 1520px;
+    background-color: #E9DAC1;
+    padding: 15px;
+    font-size: 125%;
+    color: grey;
+}
+
+#about-me h2{
+    display: flex;
+    flex-direction: column;
+    font-size: 200%;
+    text-align: right;
+    float: left;
+    margin-left: 100px;
+    color: grey;
+    border-right: 5px solid grey;
+    padding-bottom: 150px;
+    padding-right: 5px;
+}
+
+.about-me-p {
+    display: flex;
+    padding-left: 10px;
+    line-height: 1.4;
+}
+
+#work h2{
+    display: flex;
+    flex-direction: column;
+    font-size: 200%;
+    text-align: right;
+    float: left;
+    margin-left: 100px;
+    color: grey;
+    border-right: 5px solid grey;
+    padding-bottom: 150px;
+    padding-right: 5px;
 }
