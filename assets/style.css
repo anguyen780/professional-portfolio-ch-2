@@ -13,7 +13,7 @@ header {
 }
 
 .header-name {
-    background-color: #54BAB9;
+    background-color: grey;
     padding: 15px 10px 15px 50px;
     position: relative;
     right: 50px;
@@ -31,6 +31,7 @@ header {
     flex-direction: row;
     justify-content: end;
     list-style-type: none;
+    text-decoration: underline;
 }
 
 .ul-nav li {
@@ -46,6 +47,12 @@ a:hover {
     text-decoration: none; 
 }
 
+main {
+    display: flex;
+    flex-flow: column wrap;
+    margin-top: 50px;
+}
+
 .main-img {
     height: 282px;
     width: 100%;
@@ -53,11 +60,13 @@ a:hover {
     background-image: url(./images/_DSC2922.JPEG);
     background-size: 125%;
     background-position: center 45%;
+    position: relative;
+   
 }
 
-.main-img h2 {
+.port-div {
     position: absolute;
-    top: 320px;
+    top: 215px;
     left: 1520px;
     background-color: #E9DAC1;
     padding: 15px;
@@ -74,25 +83,87 @@ a:hover {
     margin-left: 100px;
     color: grey;
     border-right: 5px solid grey;
-    padding-bottom: 150px;
-    padding-right: 5px;
+    padding-bottom: 200px;
+    padding-right: 20px;
 }
 
 .about-me-p {
     display: flex;
-    padding-left: 10px;
+    flex-wrap: wrap;
+    padding-left: 50px;
     line-height: 1.4;
+    width: 80%;
+}
+
+#work {
+    max-height: 1050px;
 }
 
 #work h2{
+    font-size: 200%;
+    float: left;
+    color: grey;
+    border-right: 5px solid grey;
+    padding-bottom: 850px;
+    padding-right: 20px;
+    padding-left: 112px;
+    margin-top: 100px;
+}
+
+.pro-1 {
+    position: relative;
+    left: 50px;
+    top: 100px;
+}
+
+.pro-2 {
+    position: relative;
+    left: 50px;
+    top: 125px;
+}
+
+.pro-3 {
+    position: relative;
+    left: 525px;
+    bottom: 77px;
+}
+
+.pro-4 {
+    position: relative;
+    left: 50px;
+    bottom: 50px;
+}
+
+.pro-5 {
+    position: relative;
+    left: 766px;
+    bottom: 252px;
+}
+
+#contact-me h2{
     display: flex;
     flex-direction: column;
     font-size: 200%;
     text-align: right;
     float: left;
-    margin-left: 100px;
+    margin-left: 53px;
     color: grey;
     border-right: 5px solid grey;
-    padding-bottom: 150px;
-    padding-right: 5px;
+    padding-bottom: 25px;
+    padding-right: 20px;
+}
+
+.footer-nav {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    text-decoration: underline;
+    
+}
+
+.footer-nav li {
+    padding-right: 20px;
+    position: relative;
+    left: 200px;
+    top: 25px;
 }
