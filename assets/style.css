@@ -36,7 +36,6 @@ header {
 
 .ul-nav li {
     padding-right: 10px;
-    /* border-bottom: 3px solid grey; */
 } 
 
 a {
@@ -68,10 +67,11 @@ main {
 
 .port-div {
     position: absolute;
-    top: 215px;
-    left: 1700px;
     background-color: #E9DAC1;
     padding: 15px;
+    padding-left: 15px;
+    margin-left: 1700px;
+    margin-top: 215px;
     font-size: 125%;
     color: grey;
 }
