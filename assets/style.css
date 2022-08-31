@@ -7,6 +7,8 @@ h1 {
     font-size: 200%;
 }
 
+/* Header Section */
+
 header {
     background-color: #E9DAC1;
     padding: 25px 50px;
@@ -47,6 +49,8 @@ a:hover {
     text-decoration: none; 
 }
 
+/* Work Section */
+
 main {
     display: flex;
     flex-flow: column wrap;
@@ -58,22 +62,21 @@ main {
     height: 282px;
     width: 100%;
     margin-bottom: 25px;
-    background-image: url(./images/_DSC2922.JPEG);
+    background-image: url(./assets/images/_DSC2922.JPEG);
     background-size: 125%;
     background-position: center 45%;
-    position: relative;
-   
 }
 
-.port-div {
+.port-h2 {
     position: absolute;
     background-color: #E9DAC1;
     padding: 15px;
     padding-left: 15px;
-    margin-left: 1700px;
-    margin-top: 215px;
+    left: 1700px;
+    top: 300px;
     font-size: 125%;
     color: grey;
+    
 }
 
 #about-me h2{
@@ -98,8 +101,8 @@ main {
 }
 
 #work {
-    max-height: 1050px;
-    position: relative;
+    max-height: 1050px; 
+    position: relative; 
 }
 
 .work-h2{
@@ -120,7 +123,7 @@ main {
     font-size: 125%;
     color: #E9DAC1;
     z-index: 1;
-    left: 500px;
+    left: 290px;
     bottom: 522px;
 }
 
@@ -132,7 +135,7 @@ main {
     color: #E9DAC1;
     z-index: 1;
     bottom: 268px;
-    left: 500px;
+    left: 290px;
 }
 
 .calendar-heading {
@@ -143,7 +146,7 @@ main {
     color: #E9DAC1;
     z-index: 1;
     bottom: 268px;
-    left: 975px;
+    left: 765px;
 }
 
 .weather-heading {
@@ -153,7 +156,7 @@ main {
     font-size: 125%;
     color: #E9DAC1;
     z-index: 1;
-    left: 500px;
+    left: 290px;
     top: 880px;
 }
 
@@ -164,7 +167,7 @@ main {
     font-size: 125%;
     color: #E9DAC1;
     z-index: 1;
-    left: 975px;
+    left: 765px;
     top: 880px;
 }
 
@@ -176,7 +179,7 @@ main {
 
 .port-1 {
     position: absolute;
-    left: 500px;
+    left: 290px;
     top: 100px;
     max-width: 900px;
     max-height: 400px;
@@ -193,7 +196,7 @@ main {
 
 .port-2 {
     position: absolute;
-    left: 500px;
+    left: 290px;
     top: 550px;
     max-width: 425px;
     max-height: 200px;
@@ -202,7 +205,7 @@ main {
 
 .port-3 {
     position: absolute;
-    left: 975px;
+    left: 765px;
     top: 550px;
     max-width: 425px;
     max-height: 200px;
@@ -211,7 +214,7 @@ main {
 
 .port-4 {
     position: absolute;
-    left: 500px;
+    left: 290px;
     bottom: 0px;
     max-width: 425px;
     max-height: 200px;
@@ -220,12 +223,14 @@ main {
 
 .port-5 {
     position: absolute;
-    left: 975px;
+    left: 765px;
     bottom: 0px;
     max-width: 425px;
     max-height: 200px;
     border: 5px solid grey;
 }
+
+/* Contact Me Section */
 
 #contact-me h2{
     display: flex;
@@ -239,6 +244,7 @@ main {
     padding-bottom: 25px;
     padding-right: 20px;
 }
+
 
 footer {
     padding-top: 50px;
@@ -257,6 +263,14 @@ footer {
 .footer-nav li {
     padding-right: 50px;
     position: relative;
-    left: 350px;
+    left: 150px;
     top: 25px;
+}
+
+@media (max-width: 1454px){
+    #about-me {
+        display:flex;
+        flex-wrap: row wrap;
+    }
+
 }
