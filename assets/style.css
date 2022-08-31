@@ -54,14 +54,26 @@ a:hover {
     width: 100%;
     margin-bottom: 150px;
     background-color: grey;
+    position: relative;
 }
 
 .main-img {
     max-height: 300px;
-    position: relative;
+    position: absolute;
     left: 50px;
     margin-top: 10px;
     z-index: 1;
+}
+
+.port-h2 {
+    position: absolute;
+    background-color: #E9DAC1;
+    padding: 15px;
+    padding-left: 15px;
+    left: 1700px;
+    top: 250px;
+    font-size: 125%;
+    color: grey;
 }
 
 /* Work Section */
@@ -71,18 +83,6 @@ main {
     flex-flow: column wrap;
     margin-top: 50px;
     padding-bottom: 50px;
-}
-
-.port-h2 {
-    position: absolute;
-    background-color: #E9DAC1;
-    padding: 15px;
-    padding-left: 15px;
-    left: 1700px;
-    top: 300px;
-    font-size: 125%;
-    color: grey;
-    
 }
 
 #about-me h2{
