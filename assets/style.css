@@ -49,15 +49,6 @@ a:hover {
     text-decoration: none; 
 }
 
-/* Work Section */
-
-main {
-    display: flex;
-    flex-flow: column wrap;
-    margin-top: 50px;
-    padding-bottom: 50px;
-}
-
 .aside-header {
     height: 325px;
     width: 100%;
@@ -70,6 +61,16 @@ main {
     position: relative;
     left: 50px;
     margin-top: 10px;
+    z-index: 1;
+}
+
+/* Work Section */
+
+main {
+    display: flex;
+    flex-flow: column wrap;
+    margin-top: 50px;
+    padding-bottom: 50px;
 }
 
 .port-h2 {
