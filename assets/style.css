@@ -144,7 +144,7 @@ main {
     left: 290px;
 }
 
-.calendar-heading {
+.project2-heading {
     position: absolute;
     background-color: grey;
     padding: 15px;
@@ -153,6 +153,13 @@ main {
     z-index: 1;
     bottom: 268px;
     left: 765px;
+}
+
+.hlt-img {
+    
+    width: 425px;
+    height: 200px;
+    
 }
 
 .weather-heading {
